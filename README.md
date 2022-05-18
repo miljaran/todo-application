@@ -10,4 +10,4 @@ Käyttäjä voi myös seurata erilaisia tilastoja tehtävistään "Tilastoja"-si
 Sovelluksen tiedot eivät tallennu tällä hetkellä minnekään ja ne nollaantuvat aina kun sivua päivitetään.
 
 ## Sovelluksen ajaminen
-Sovellus toimii osoitteessa [todo](). Omalla laitteella sovelluksen voi ajaa komentoriviltä siirymällä projektin juureen sekä ajamalla komennon `npm start`. Tämän jälkeen sovellus toimii osoitteessa [http://localhost:3000](http://localhost:3000).
+Sovellus toimii osoitteessa [https://miljaran.github.io/todo-application/](https://miljaran.github.io/todo-application/). Omalla laitteella sovelluksen voi ajaa komentoriviltä siirymällä projektin juureen sekä ajamalla komennon `npm start`. Tämän jälkeen sovellus toimii osoitteessa [http://localhost:3000](http://localhost:3000).
