@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css?family=Work+Sans");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+
+.App {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  background-color: #E7DDDA;
+}
+
+header {
+  background-color: #633d44;
+  padding: 5px;
+  color: #D1A5AE;
+}
+
+h1 {
+  font-size: 2em;
+  font-family: 'Playfair Display', serif;
+}
+
+h2 {
+  font-size: 1.9em;
+  font-family: 'Playfair Display', serif;
+}
+
+h3 {
+  font-size: 1.6em;
+  font-family: 'Playfair Display', serif;
+}
+
+.nav {
+  all: unset;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 1.3em
+}
+
+.nav:hover {
+  text-decoration: underline;
+}
+
+hr {
+  width: 50%;
+  border: 0.5px solid #633d44;
+}
+
+form {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+label {
+  display: table-row;
+}
+
+input {
+  display: table-cell;
+}
+
+.button {
+  cursor: pointer;
+  background-color: #D1A5AE;
+  border: 0;
+  border-radius: 2px;
+  margin: 5px;
+  padding: 5px 10px;
+  transition: background-color 0.15s ease;
+  color: black;
+}
+
+.button:hover {
+  background-color: #BF98A0;
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 3em;
+  }
+  h2 {
+    font-size: 2.5em;
+  }
+  h3 {
+    font-size: 2em;
+  }
+}
